@@ -1,3 +1,4 @@
+#define AMIGA
 #ifdef AMIGA
 
 #ifndef ILBM_H
