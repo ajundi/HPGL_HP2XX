@@ -1,3 +1,22 @@
+Original source downloaded from https://ftp.gnu.org/gnu/hp2xx/hp2xx-3.4.4.tar.gz
+I added solution files for Visual studio 2013 and 2022. The compilation is not perfect and I have a feeling AMIGA shouldn't be included when compiling on windows. Never the less It compiles and runs the basic commands such as 
+generate svg file.
+```
+hp2xx.exe -m svg test.hpg
+```
+generate eps which can be converted to pdf.
+```
+hp2xx.exe -m eps test.hpg
+```
+Show a preview
+```
+hp2xx.exe test.hpg 
+```
+
+## Visual studio
+The visual sudio solution files are in ./makes folder no changes are needed to build and run assuming you have the correct SDKs installed or a suitable alternative. You can install Visual Studio 2017 Express from here https://aka.ms/vs/15/release/vs_WDExpress.exe ("Express" is free to use for both commercial and personal projects unlike community editions which don't allow most commercial uses). Visual Studio 2017 Express can run either 2013 or 2022 visual studio solutions. 
+
+## Original README
 hp2xx-3.4.4 
 
 This is mainly a bugfix release to correct some problems found in 3.4.3.
